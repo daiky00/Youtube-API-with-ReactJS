@@ -1,10 +1,10 @@
 .search {
     margin: 1rem;
-    text-align: center;
 }
 
 .search input {
-    width: 75%;
+    width: 66%;
+    padding: 1rem;
 }
 
 .video-item img {

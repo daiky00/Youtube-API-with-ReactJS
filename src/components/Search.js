@@ -13,7 +13,7 @@ class Search extends Component {
       <div className="search">
         <input
           value={this.state.term}
-          onChange={event => this.onInputChange(event.target.value)} />
+          onChange={event => this.onInputChange(event.target.value)} placeholder="Search videos here"/>
       </div>
     )
   }
