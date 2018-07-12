@@ -11,7 +11,7 @@ class Search extends Component {
   render() {
     return (
       <div className="search">
-        <input
+        <input type="text"
           value={this.state.term}
           onChange={event => this.onInputChange(event.target.value)} placeholder="Search videos here"/>
       </div>

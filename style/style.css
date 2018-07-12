@@ -1,9 +1,9 @@
 .search {
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .search input {
-    width: 66%;
+    width: 100%;
     padding: 1rem;
 }
 
@@ -11,10 +11,14 @@
     max-width: 64px;
 }
 
-.video-detail .details{
+.video-detail .details {
     background-color: #444;
     color: #fff;
     padding: 1rem;
+}
+
+.media-heading {
+    padding: 0 15px;
 }
 
 .list-group-item {
